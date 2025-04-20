@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- link to the custom css -->
+         <link rel="stylesheet" href="style.css">
+
+         <!-- link to favicon.png -->
+          <link rel="shortcut icon" href="images/online-resume.png" type="image/x-icon">
+
+          <!-- link to remixicon -->
+          <link
+          href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+          rel="stylesheet"
+      />
+        <title>Daniel Kague | Portfolio</title>
+    </head>
+    <body>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="#home" title="Home" class="nav-link">
+                        <i class="ri-home-line"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projects" title="Projects" class="nav-link">
+                        <i class="ri-folder-3-line"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services" title="Services" class="nav-link">
+                        <i class="ri-file-3-line"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#experience" title="Experience" class="nav-link">
+                        <i class="ri-medal-line"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact" title="Contact" class="nav-link">
+                        <i class="ri-contacts-line"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main">
+
+            <section class="home section" id="home">
+                <div class="home-container container grid">
+                    <div class="profile">
+                        <img src="images/home-prof.png" alt="home page image" class="profile-img">
+
+                        <div class="profile-data">
+                            <h1 class="profile-name">Daniel Kague</h1>
+                            <div class="profile-buttons">
+                                <a href="#projects" class="button">Projects</a>
+                                <a href="#services" class="button btn-black">Services</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <div class="info-data">
+                            <div class="info-circle"></div>
+                            <h1 class="info-name">Daniel Kague</h1>
+                        </div>
+
+                        <div class="info-image">
+                            <img src="images/about pic.png" alt="about page image" class="info-img">
+
+                        </div>
+
+                        <p class="info-description">
+                            Passionate web designer and software developer with expertise in 
+                            creating beautiful, functional digital experiences. 
+                            I specialize in building modern websites and applications 
+                            that blend aesthetic appeal with technical excellence.
+                        </p>
+
+                        <a href="Sample CV.pdf" class="button btn-black">Download CV</a>
+                    </div>
+
+                    <div class="about">
+                        <h3 class="about-name">
+                            Daniel Kague - Web Designer & Software Developer
+                        </h3>
+
+                        <div class="about-social">
+                            <a href="#" target="_blank" class="about-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <a href="#" target="_blank" class="about-link">
+                                <i class="ri-twitter-x-line"></i>
+                            </a>
+
+                            <a href="#" target="_blank" class="about-link">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+
+
+                        </div>
+
+                        <div class="about-image">
+                            <img src="images/image pic.png" alt="about page image" class="about-img">
+                        </div>
+
+                        <p class="about-note">
+                            I am a passionate web designer and software developer who combines 
+                            technical expertise with creative vision. 
+                            I create digital experiences that are both visually 
+                            appealing and functionally robust, 
+                            with skills spanning front-end and back-end development. 
+                            My approach emphasizes clean code, responsive design, 
+                            and user-centered solutions. 
+                            I stay current with industry trends while maintaining focus 
+                            on performance and scalability. 
+                            I excel in collaborative environments and guide 
+                            projects from concept to deployment 
+                            with consistent quality and attention to detail.
+                        </p>
+
+                        <a href="#contact" class="button">Contact Me</a>
+
+                    </div>
+
+                    <div class="skills">
+                        <h2 class="skills-title">Skills</h2>
+
+                        <div class="skills-items">
+                            <img src="images/skills-html.svg" alt="" class="skills-item">
+                            <img src="images/skills-css.svg" alt="" class="skills-item">
+                            <img src="images/skills-javascript.svg" alt="" class="skills-item">
+                            <img src="images/skills-react.svg" alt="" class="skills-item">
+                            <img src="images/skills-tailwind-css.svg" alt="" class="skills-item">
+                        </div>
+
+                        <p class="skills-description">
+                            Proficient in HTML5 and modern CSS techniques 
+                            (Grid, Flexbox, animations) 
+                            with pixel-perfect implementation skills. 
+                            Strong JavaScript foundation including ES6+ 
+                            features and interactive web development. 
+                            Experienced React developer utilizing hooks, 
+                            context API, and optimization 
+                            strategies to create reusable component libraries. 
+                            Advanced skills with Tailwind CSS's utility-first 
+                            approach for rapidly building customized interfaces 
+                            while maintaining design system consistency. 
+                            This comprehensive technical toolkit enables 
+                            the creation of responsive, accessible, and high-performance 
+                            web applications that consistently exceed client expectations.
+                        </p>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects section" id="projects">
+                <h2 class="section-title">Recent Projects</h2>
+
+                <div class="project-container container grid">
+                    <article class="project-card">
+                        <a href="#" class="projects-image">
+                            <img src="images/project1.png" alt="project 1 image" class="projects-img">
+                        </a>
+
+                        <div class="projects-data">
+                            <h3 class="projects-name">Cakey Delights</h3>
+                            <p class="projects-description">
+                                A responsive e-commerce website for a bakery with online
+                                ordering and payment processing. 
+                                Built with React, Tailwind CSS, and 
+                                integrated with Stripe payment gateway.
+                            </p>
+                            <a href="#" class="projects-button">
+                                <i class="ri-external-link-fill"></i>
+                                <span>View Project</span> 
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a href="#" class="projects-image">
+                            <img src="images/project2.png" alt="project 2 image" class="projects-img">
+                        </a>
+
+                        <div class="projects-data">
+                            <h3 class="projects-name">Task Manager App</h3>
+                            <p class="projects-description">
+                                A productivity application for managing 
+                                tasks, projects, and team collaboration. 
+                                Features include drag-and-drop interface, 
+                                task assignment, and progress tracking.
+                            </p>
+                            <a href="#" class="projects-button">
+                                <i class="ri-external-link-fill"></i>
+                                <span>View Project</span> 
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a href="#" class="projects-image">
+                            <img src="images/project3.png" alt="project 3 image" class="projects-img">
+                        </a>
+
+                        <div class="projects-data">
+                            <h3 class="projects-name">Travel Explorer</h3>
+                            <p class="projects-description">
+                                A travel discovery platform that helps users 
+                                find and book unique experiences in 
+                                destinations worldwide. 
+                                Includes interactive maps, recommendations, 
+                                and user reviews.
+                            </p>
+                            <a href="#" class="projects-button">
+                                <i class="ri-external-link-fill"></i>
+                                <span>View Project</span> 
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a href="#" class="projects-image">
+                            <img src="images/project4.png" alt="project 4 image" class="projects-img">
+                        </a>
+
+                        <div class="projects-data">
+                            <h3 class="projects-name">Fitness Tracker</h3>
+                            <p class="projects-description">
+                                A mobile-first web application for tracking workouts, 
+                                nutrition, and fitness goals. 
+                                Includes data visualization, progress charts, 
+                                and personalized recommendations.
+                            </p>
+                            <a href="#" class="projects-button">
+                                <i class="ri-external-link-fill"></i>
+                                <span>View Project</span> 
+                            </a>
+
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a href="#" class="projects-image">
+                            <img src="images/project5.png" alt="project 5 image" class="projects-img">
+                        </a>
+
+                        <div class="projects-data">
+                            <h3 class="projects-name">Portfolio Website</h3>
+                            <p class="projects-description">
+                                A custom-designed portfolio website showcasing 
+                                creative work and professional expertise. 
+                                Features responsive design, content 
+                                management system, and contact functionality.
+                            </p>
+                            <a href="#" class="projects-button">
+                                <i class="ri-external-link-fill"></i>
+                                <span>View Project</span> 
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+
+            <section class="services section" id="services">
+                <h2 class="section-title">Services Offered</h2>
+
+                <div class="services-container container grid">
+                    <article class="services-card">
+                        <div class="services-icon">
+                            <i class="ri-macbook-line"></i>  
+                        </div>
+
+                        <h3 class="services-name">Web Development</h3>
+                        <p class="services-description">
+                            Creation of responsive, user-friendly 
+                            websites and web applications 
+                            using modern technologies and best practices. 
+                            Focus on performance, accessibility, 
+                            and cross-browser compatibility.
+                        </p>
+                    </article>
+
+                    <article class="services-card">
+                        <div class="services-icon">
+                            <i class="ri-pen-nib-line"></i>  
+                        </div>
+
+                        <h3 class="services-name">UI/UX Designer</h3>
+                        <p class="services-description">
+                            Design of intuitive user interfaces and 
+                            seamless user experiences. 
+                            Creating wireframes, prototypes, 
+                            and design systems 
+                            that prioritize usability while maintaining 
+                            aesthetic appeal.
+                        </p>
+                    </article>
+
+                    <article class="services-card">
+                        <div class="services-icon">
+                            <i class="ri-seo-line"></i>  
+                        </div>
+
+                        <h3 class="services-name">Search Engine Optimization</h3>
+                        <p class="services-description">
+                            Implementation of technical and content strategies to 
+                            improve website visibility in search results. 
+                            Includes keyword research, on-page 
+                            optimization, and performance improvements.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Job Experience</h2>
+
+                <div class="experience-container container grid">
+                    <article class="experience-card">
+                        <h2 class="experience-company">Microsoft</h2>
+
+                        <div class="experience-data">
+                            <h3 class="experience-profession">UI/UX Designer</h3>
+                            <span class="experience-date">02/23 - Present</span>
+                            <p class="experience-description">
+                                Lead design efforts for internal web applications,
+                                creating user interfaces that enhance 
+                                productivity and accessibility. 
+                                Collaborate with engineers to implement
+                                design systems and ensure consistent 
+                                user experience across products.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="experience-card">
+                        <h2 class="experience-company">Amazon</h2>
+
+                        <div class="experience-data">
+                            <h3 class="experience-profession">Front End Developer</h3>
+                            <span class="experience-date">02/23 - Present</span>
+                            <p class="experience-description">
+                                Developed responsive web interfaces for e-commerce platform features. 
+                                Implemented performance optimizations that 
+                                improved page load times by 40%. 
+                                Collaborated in an agile team to 
+                                deliver feature updates on tight deadlines.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="experience-card">
+                        <h2 class="experience-company">Safaricom</h2>
+
+                        <div class="experience-data">
+                            <h3 class="experience-profession">Product Designer</h3>
+                            <span class="experience-date">02/23 - Present</span>
+                            <p class="experience-description">
+                                Designed mobile application interfaces 
+                                for telecommunications services. 
+                                Conducted user research and usability 
+                                testing to inform design decisions. 
+                                Created visual assets and documentation 
+                                for development teams.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact Me</h2>
+
+                <div class="contact_container container grid">
+                    <form action="" class="contact_form grid" id="contact-form">
+                        <div class="contact-group grid">
+                            <input type="text" name="fullname" placeholder="Full Name" required class="contact-input">
+                            <input type="email" name="email" placeholder="Email Address" required class="contact-input">
+                        </div>
+
+                        <textarea name="message" placeholder="Message" class="contact-input contact-area"></textarea>
+                        <button class="button contact-button">Send Message</button>
+                    </form>
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="footer">
+            <small>Daniel Kague. &#169; 2025 All Rights Reserved</small>
+
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
